@@ -1,1053 +1,1051 @@
 
 /* || RESET */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Lato", Helvetica, sans-serif;
-  }
-  
-  /* ||VARIABLES */
-  :root {
-    /* COLOR */
-    --COLOR1: #272a31;
-    --COLOR2: #ec5242;
-    --COLOR3: #d3d3d3;
-  }
-  
-  /* ||GENERAL STYLE */
-  
-  .hero {
-    display: flex;
-    flex-direction: column;
-    background-color: whitesmoke;
-    background-image: url(images/home-bg.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    padding: 5.7rem 18px 2.2rem;
-  }
-  
-  .hero-about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: whitesmoke;
-    background-image: url('images/about-bg.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position-y: 2.5rem;
-    padding: 4rem 1.5rem 1.5rem;
-  }
-  
-  .hero_box {
-    margin-left: 20px;
-    margin-top: 50px;
-  }
-  
-  .hero_heading {
-    color: var(--COLOR2);
-    margin-bottom: 5px;
-  }
-  
-  .hero_headingA {
-    color: var(--COLOR2);
-    margin-bottom: 5px;
-    text-align: center;
-  }
-  
-  .hero_title {
-    font-family: var(--FF);
-    color: transparent;
-    background-image: url("images/header\ background.jpeg");
-    -webkit-background-clip: text;
-  }
-  
-  .hero_titleA {
-    font-family: var(--FF);
-    color: var(--COLOR2);
-    text-align: center;
-    font-size: 2rem;
-  }
-  
-  .about {
-    width: 420px;
-  }
-  
-  .hero_description {
-    margin: 70px 20px 20px 20px;
-    border: 1px solid white;
-    padding: 15px;
-    background-color: rgba(202, 199, 199, 0.1);
-  
-    /* font-family: var(--FF); */
-  }
-  
-  .hero_descriptionA {
-    margin: 70px 20px 20px 20px;
-    border: 1px solid white;
-    padding: 15px;
-    background-color: white;
-    text-align: center;
-    font-family: var(--FF);
-  }
-  
-  .des1 {
-    font-family: var(--FF);
-  }
-  
-  .des2 {
-    margin-left: 20px;
-    margin-bottom: 9px;
-    color: var(--COLOR1);
-    font-family: var(--FF);
-  }
-  
-  .des3 {
-    margin-left: 20px;
-  }
-  
-  .hamburger_menu {
-    width: 28px;
-    height: 28px;
-    margin-left: 20px;
-    margin-top: 15px;
-    z-index: 100;
-    position: absolute;
-  }
-  
-  .menu {
-    display: none;
-  }
-  
-  .icon {
-    width: 50px;
-    height: 48px;
-  }
-  
-  .courses {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", Helvetica, sans-serif;
+}
+
+/* ||VARIABLES */
+:root {
+  /* COLOR */
+  --COLOR1: #272a31;
+  --COLOR2: #ec5242;
+  --COLOR3: #d3d3d3;
+}
+
+/* ||GENERAL STYLE */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  background-image: url(images/home-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 5.7rem 18px 2.2rem;
+}
+
+.hero-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: whitesmoke;
+  background-image: url('images/about-bg.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: 2.5rem;
+  padding: 4rem 1.5rem 1.5rem;
+}
+
+.hero_box {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.hero_heading {
+  color: var(--COLOR2);
+  margin-bottom: 5px;
+}
+
+.hero_headingA {
+  color: var(--COLOR2);
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.hero_title {
+  font-family: var(--FF);
+  color: transparent;
+  background-image: url("images/header\ background.jpeg");
+  -webkit-background-clip: text;
+}
+
+.hero_titleA {
+  font-family: var(--FF);
+  color: var(--COLOR2);
+  text-align: center;
+  font-size: 2rem;
+}
+
+.about {
+  width: 420px;
+}
+
+.hero_description {
+  margin: 70px 20px 20px 20px;
+  border: 1px solid white;
+  padding: 15px;
+  background-color: rgba(202, 199, 199, 0.1);
+
+  /* font-family: var(--FF); */
+}
+
+.hero_descriptionA {
+  margin: 70px 20px 20px 20px;
+  border: 1px solid white;
+  padding: 15px;
+  background-color: white;
+  text-align: center;
+  font-family: var(--FF);
+}
+
+.des1 {
+  font-family: var(--FF);
+}
+
+.des2 {
+  margin-left: 20px;
+  margin-bottom: 9px;
+  color: var(--COLOR1);
+  font-family: var(--FF);
+}
+
+.des3 {
+  margin-left: 20px;
+}
+
+.hamburger_menu {
+  width: 28px;
+  height: 28px;
+  margin-left: 20px;
+  margin-top: 15px;
+  z-index: 100;
+  position: absolute;
+}
+
+.menu {
+  display: none;
+}
+
+.icon {
+  width: 50px;
+  height: 48px;
+}
+
+.courses {
+  background-color: var(--COLOR1);
+  background-image: url("images/diamond.png");
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.programs {
+  text-align: center;
+  padding: 25px;
+  color: white;
+}
+
+.course_catalogue ul {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  min-height: 5.5rem;
+  gap: 0.6rem;
+}
+
+.python,
+.Java_Programming,
+.Redux_React,
+.Andriod_N_Developer,
+.Cyber_security {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  background-color: rgba(202, 199, 199, 0.1);
+  margin: 0 20px 10px 20px;
+  padding: 20px;
+}
+
+.python_course,
+.Java_course,
+.RR_course,
+.AND_course,
+.CS_course {
+  color: var(--COLOR2);
+  font-family: var(--FF);
+  flex: 2;
+}
+
+.python_des,
+.Java_des,
+.RR_des,
+.AND_des,
+.CS_des {
+  align-items: center;
+  font-size: 0.875rem;
+  line-height: 1.2rem;
+  color: #d3d3d3;
+  flex: 4;
+}
+
+.course_btn {
+  text-align: center;
+
+  /* padding: 20px; */
+  background-color: var(--COLOR2);
+  color: white;
+  margin: 40px 40px 40px 100px;
+  font-family: var(--FF);
+  border: none;
+  padding: 1.5rem;
+  width: 50%;
+}
+
+.course_btn:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+
+.featured_lecturers {
+  text-align: center;
+  padding: 50px;
+  color: var(--COLOR1);
+}
+
+.featured-image {
+  position: relative;
+  height: auto;
+}
+
+.python_lecturer,
+.RR_lecturer,
+.AND_lecturer,
+.CS_lecturer,
+.Dean_lecturer,
+.IA_lecturer {
+  display: flex;
+  gap: 15px;
+  margin: 0 20px 10px 20px;
+  padding: 20px;
+}
+
+.Java_Lecturer {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  margin: 0 20px 10px 20px;
+  padding: 20px;
+}
+
+.more_lecturers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #5a5a5a;
+  border-radius: 3px;
+  padding: 0.7rem 0;
+  margin-top: 1rem;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.down {
+  width: 16px;
+  height: 14px;
+  margin-left: 5px;
+}
+
+.more_info:hover {
+  background-color: var(--COLOR2);
+  cursor: pointer;
+}
+
+.more_info:active {
+  background-color: red;
+  cursor: pointer;
+}
+
+.contact {
+  background-color: rgb(244, 244, 244);
+}
+
+.contact_orbit {
+  font-size: 30px;
+  line-height: 52px;
+  text-align: center;
+  color: var(--COLOR2);
+  margin-bottom: 12px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.list {
+  flex-direction: column;
+}
+
+input {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 300px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 300px;
+  height: 150px;
+  margin-top: 15px;
+}
+
+.contact-btn {
+  font-family: var(--FF);
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  width: 150px;
+  height: 50px;
+  color: var(--COLOR2);
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+hr {
+  background-color: #ec5242;
+  border: 0.2px solid #ec5242;
+  border-radius: 2px;
+  width: 35px;
+  margin-top: -6px;
+}
+
+#logo-hr {
+  width: 100%;
+  border: 0.1px solid lightgray;
+  margin-top: 10px;
+}
+
+.contact-btn:hover {
+  background-color: var(--COLOR1);
+  cursor: pointer;
+}
+
+.contact-btn:active {
+  background-color: red;
+  cursor: pointer;
+}
+
+.orbit {
+  text-align: center;
+  padding: 40px;
+  margin: 10px;
+
+  /* position: relative; */
+  font-family: var(--FF);
+}
+
+.logo_orbit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.gallery div {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(240 80 50 / 75%);
+  transition: all 0.3s ease;
+  padding: 4.5rem 0;
+  cursor: pointer;
+  gap: 0.3rem;
+}
+
+.orbit_des {
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  font-family: var(--FF);
+}
+
+.logo_im {
+  width: 320px;
+  height: 130px;
+  margin: 45px;
+  border: 1px solid grey;
+  padding: 5px;
+  align-self: center;
+}
+
+.alumni {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  /* padding: 2.5rem;
+    gap: 1rem; */
+}
+
+.past_alumni {
+  text-align: center;
+  padding: 40px;
+  margin: 10px;
+
+  /* position: relative; */
+  font-family: var(--FF);
+}
+
+.alumni_des {
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  font-family: var(--FF);
+}
+
+.photo-gallery {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0 2rem 0;
+  gap: 1rem;
+  align-items: center;
+}
+
+.photo-gallery li {
+  background-size: 100%;
+  width: 320px;
+}
+
+.Graduant1 {
+  background-image: url(images/class\ 2020.jpeg);
+}
+
+.Graduant2 {
+  background-image: url(images/class\ 2021.jpg);
+}
+
+.photo-gallery div {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(240 80 50 / 75%);
+  transition: all 0.3s ease;
+  padding: 4.5rem 0;
+  cursor: pointer;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.photo-gallery h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.photo-gallery p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.partners {
+  background-color: var(--COLOR1);
+}
+
+.partner {
+  text-align: center;
+  padding: 40px;
+  margin: 10px;
+  color: white;
+}
+
+.partner_home {
+  text-align: center;
+  padding: 40px;
+  margin: 10px;
+  color: white;
+}
+
+.durham_college {
+  width: 220px;
+  height: 100px;
+  padding: 5px;
+}
+
+.blue_crest {
+  width: 150px;
+}
+
+.power_technology {
+  width: 150px;
+  height: 100px;
+}
+
+.trilogy_innovation {
+  width: 150px;
+}
+
+.group1,
+.group2 {
+  display: flex;
+}
+
+.group2 {
+  justify-content: space-between;
+}
+
+.footer_wrapper {
+  padding: 40px;
+}
+
+.footer_info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.copyright {
+  font-weight: bold;
+}
+
+.facebook {
+  width: 20px;
+  height: 20px;
+}
+
+.page,
+.page_out {
+  color: white;
+}
+
+.nav-logo {
+  width: 150px;
+  height: auto;
+  margin-left: 30px;
+}
+
+.header_wrapper {
+  display: none;
+}
+
+.see {
+  display: none;
+}
+
+.navigation {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #ec5242;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(15px);
+}
+
+.btn-wrapper {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.close_btn {
+  border: none;
+  cursor: pointer;
+  width: 45px;
+  outline: none;
+  background: none;
+}
+
+.desktop_nav {
+  display: none;
+}
+
+.nav_wrapper_desk {
+  margin-left: 200px;
+}
+
+.nav_items {
+  font-size: 3em;
+  align-items: center;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+a.email {
+  display: block;
+  font-size: 0.8em;
+  font-weight: 700;
+  text-underline-position: under;
+  line-height: 1.5rem;
+  color: #272a31;
+}
+
+#error {
+  color: red;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.course_lecturers {
+  margin-left: 10px;
+  margin-top: 14px;
+}
+
+.checkers {
+  width: 40px;
+  position: relative;
+}
+
+.lecturer_content {
+  margin-left: 100px;
+}
+
+.hidden_features {
+  display: none;
+}
+
+#lecturer-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  gap: 2rem;
+}
+
+#lecturer-list li {
+  display: flex;
+  gap: 1.5rem;
+}
+
+#lecturer-list li:nth-child(n+3) {
+  display: none;
+}
+
+.lecturer-details h3 {
+  font-size: 1rem;
+}
+
+.lecturer-image {
+  background-image: url('images/image-bg.png');
+  background-size: contain;
+  background-position: top left;
+  background-repeat: no-repeat;
+  max-width: 100px;
+  flex: 1;
+}
+
+.lecturer-image img {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  top: 0.73rem;
+  left: 0.8rem;
+}
+
+.lecturer-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 2.5;
+}
+
+.lecturer-title {
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.2rem;
+  color: #ec5242;
+}
+
+hr.grey-line {
+  background-color: #d3d3d3;
+  border: #d3d3d3;
+  height: 0.1rem;
+  width: 5%;
+}
+
+.lecturer-info {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  margin-bottom: 10px;
+}
+
+#hr-hero {
+  display: none;
+}
+
+#arrow {
+  display: none;
+}
+
+.about-partner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.feat-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* ----MEDIA QUERIES SECTION---- */
+
+/* || DESKTOP VERSION */
+@media (min-width: 768px) {
+  .header_wrapper {
+    display: block !important;
     background-color: var(--COLOR1);
-    background-image: url("images/diamond.png");
-    align-items: center;
   }
-  
-  ul {
-    list-style-type: none;
-  }
-  
-  .programs {
-    text-align: center;
-    padding: 25px;
-    color: white;
-  }
-  
-  .course_catalogue ul {
+
+  .header_items {
     display: flex;
+    padding: 5px 5px;
+    gap: 6%;
     align-items: center;
-    padding: 1rem 0.5rem;
-    min-height: 5.5rem;
-    gap: 0.6rem;
+    flex-direction: row;
+    margin-left: 900px;
   }
-  
-  
+
+  .desktop_nav {
+    display: inline-flex;
+    background-color: white;
+    width: 100%;
+  }
+
+  .desktop_nav a {
+    text-decoration: none;
+  }
+
+  .nav_wrapper li {
+    display: inline-block;
+  }
+
+  .nav_items_desk {
+    padding: 15px 15px;
+    margin: 10px;
+  }
+
+  .link_desk {
+    color: var(--COLOR1);
+  }
+
+  .link_deskA,
+  .link_deskB {
+    color: var(--COLOR2);
+  }
+
+  .link_deskB {
+    border: 4px solid #ec5242;
+  }
+
+  .hero {
+    background-image: url('images/home-bg-desk.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 6rem 11%;
+  }
+
+  .hero-about {
+    background-image: url('images/about-bg-desk.png');
+    background-size: contain;
+    background-position-y: 7rem;
+    padding: 4rem;
+  }
+
+  .hero_box {
+    margin-top: 34px;
+  }
+
+  .hero_heading {
+    font-size: 3em;
+  }
+
+  .hero_headingA {
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  .hero_title {
+    font-size: 3em;
+  }
+
+  .hero_titleA {
+    font-size: 2.5em;
+  }
+
+  .hero_description {
+    padding-left: 20px;
+    width: 70%;
+    background-color: rgb(242, 242, 242);
+  }
+
+  .hero_descriptionA {
+    background-color: white;
+    border: 1px solid #d3d3d3;
+  }
+
+  .des2 {
+    font-size: 2em;
+  }
+
+  .des3 {
+    font-size: 2em;
+  }
+
+  .des1A {
+    font-size: 0.85rem;
+    line-height: 1.4rem;
+    color: #5a5a5a;
+    width: 650px;
+  }
+
+  .desktop_partners ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  .course_catalogue {
+    display: inline-flex;
+    margin-left: 8%;
+  }
+
+  .course_catalogue ul:hover {
+    border: 2px solid #fff;
+    transition: all 400ms linear 0.1ms;
+  }
+
   .python,
   .Java_Programming,
   .Redux_React,
   .Andriod_N_Developer,
   .Cyber_security {
+    width: 220px;
+    height: 220px;
     display: flex;
-    gap: 15px;
-    justify-content: space-between;
-    background-color: rgba(202, 199, 199, 0.1);
-    margin: 0 20px 10px 20px;
-    padding: 20px;
+    flex-direction: column;
+    gap: 2px;
+    margin-left: -17px;
+    align-items: center;
   }
-  
-  .python_course,
-  .Java_course,
-  .RR_course,
-  .AND_course,
-  .CS_course {
-    color: var(--COLOR2);
-    font-family: var(--FF);
-    flex: 2;
+
+  .Btn {
+    display: none;
   }
-  
+
+  .see_program {
+    text-align: center;
+    color: white;
+    padding: 45px;
+    display: block;
+    text-underline-position: under;
+  }
+
+  ul.python,
+  ul.Java_Programming,
+  ul.Redux_React,
+  ul.Andriod_N_Developer,
+  ul.Cyber_security {
+    text-align: center;
+  }
+
   .python_des,
   .Java_des,
   .RR_des,
   .AND_des,
   .CS_des {
-    align-items: center;
-    font-size: 0.875rem;
-    line-height: 1.2rem;
-    color: #d3d3d3;
-    flex: 4;
+    font-size: small;
+    margin-left: 10px;
   }
-  
-  .course_btn {
-    text-align: center;
-  
-    /* padding: 20px; */
-    background-color: var(--COLOR2);
+
+  .dropdown {
+    display: none;
+  }
+
+  .hidden_features {
+    display: contents;
+  }
+
+  .course_lecturers {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px;
+  }
+
+  .menu_btn {
+    display: none;
+  }
+
+  .containerA {
+    width: auto;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .contact_orbit {
+    margin-top: -150px;
+  }
+
+  input {
+    width: 447px;
+    height: 48px;
+  }
+
+  textarea {
+    width: 447px;
+    height: 170px;
+  }
+
+  .contact-btn {
+    margin-left: 150px;
+  }
+
+  #partner-hr {
+    display: none;
+  }
+
+  .logo_im {
+    width: 400px;
+    height: 200px;
+  }
+
+  #arrow {
+    display: block;
+    width: 5px;
+  }
+
+  .photo-gallery {
+    display: flex;
+    flex-direction: row;
+    margin: 2.5rem;
+    justify-content: center;
+  }
+
+  .photo-gallery li {
+    width: 380px;
+  }
+
+  .mobile_partners {
+    display: none;
+  }
+
+  .partner {
+    display: none;
+    margin-top: 20px;
+  }
+
+  .footer_home {
+    background-color: white;
+  }
+
+  .footer {
+    background-color: var(--COLOR1);
+  }
+
+  .copyright,
+  .reserved {
     color: white;
-    margin: 40px 40px 40px 100px;
-    font-family: var(--FF);
-    border: none;
-    padding: 1.5rem;
-    width: 50%;
   }
-  
-  .course_btn:hover {
-    cursor: pointer;
-    background-color: blue;
-  }
-  
-  .featured_lecturers {
+
+  .logo_image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    padding: 50px;
-    color: var(--COLOR1);
   }
-  
-  .featured-image {
+
+  #hr-hero {
+    display: block;
+    margin-top: 10px;
+    margin-left: 45%;
+  }
+
+  .hr-heading {
+    margin-top: -12px;
+  }
+
+  .see {
+    display: contents;
+  }
+
+  .courses {
     position: relative;
     height: auto;
   }
-  
-  .python_lecturer,
-  .RR_lecturer,
-  .AND_lecturer,
-  .CS_lecturer,
-  .Dean_lecturer,
-  .IA_lecturer {
-    display: flex;
-    gap: 15px;
-    margin: 0 20px 10px 20px;
-    padding: 20px;
+
+  .btn_wrapper {
+    display: none;
   }
-  
-  .Java_Lecturer {
-    display: flex;
-    gap: 15px;
-    justify-content: space-between;
-    margin: 0 20px 10px 20px;
-    padding: 20px;
+
+  .reach_out {
+    color: #5a5a5a;
+    line-height: 1.4rem;
+    font-size: 0.85rem;
   }
-  
-  .more_lecturers {
+
+  .fa-brands {
+    color: #d3d3d3;
+  }
+
+  .contact span {
     display: flex;
+    align-items: baseline;
+    gap: 0.2rem;
     justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    border: 1px solid #5a5a5a;
-    border-radius: 3px;
-    padding: 0.7rem 0;
-    margin-top: 1rem;
-    width: 100%;
-    gap: 0.5rem;
   }
-  
-  .down {
-    width: 16px;
-    height: 14px;
-    margin-left: 5px;
-  }
-  
-  .more_info:hover {
-    background-color: var(--COLOR2);
-    cursor: pointer;
-  }
-  
-  .more_info:active {
-    background-color: red;
-    cursor: pointer;
-  }
-  
-  .contact {
-    background-color: rgb(244, 244, 244);
-  }
-  
-  .contact_orbit {
-    font-size: 30px;
-    line-height: 52px;
-    text-align: center;
-    color: var(--COLOR2);
-    margin-bottom: 12px;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
-  .list {
-    flex-direction: column;
-  }
-  
-  input {
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    border-radius: 8px;
-    width: 300px;
-    height: 40px;
-    margin-top: 15px;
-  }
-  
-  textarea {
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    border-radius: 8px;
-    width: 300px;
-    height: 150px;
-    margin-top: 15px;
-  }
-  
-  .contact-btn {
-    font-family: var(--FF);
-    font-size: 17px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    width: 150px;
-    height: 50px;
-    color: var(--COLOR2);
-    border-radius: 8px;
-    margin-top: 10px;
-  }
-  
-  hr {
-    background-color: #ec5242;
-    border: 0.2px solid #ec5242;
-    border-radius: 2px;
-    width: 35px;
-    margin-top: -6px;
-  }
-  
-  #logo-hr {
-    width: 100%;
-    border: 0.1px solid lightgray;
-    margin-top: 10px;
-  }
-  
-  .contact-btn:hover {
-    background-color: var(--COLOR1);
-    cursor: pointer;
-  }
-  
-  .contact-btn:active {
-    background-color: red;
-    cursor: pointer;
-  }
-  
-  .orbit {
-    text-align: center;
-    padding: 40px;
-    margin: 10px;
-  
-    /* position: relative; */
-    font-family: var(--FF);
-  }
-  
-  .logo_orbit {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .gallery div {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(240 80 50 / 75%);
-    transition: all 0.3s ease;
-    padding: 4.5rem 0;
-    cursor: pointer;
-    gap: 0.3rem;
-  }
-  
-  .orbit_des {
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    font-family: var(--FF);
-  }
-  
-  .logo_im {
-    width: 320px;
-    height: 130px;
-    margin: 45px;
-    border: 1px solid grey;
-    padding: 5px;
-    align-self: center;
-  }
-  
-  .alumni {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  
-    /* padding: 2.5rem;
-    gap: 1rem; */
-  }
-  
-  .past_alumni {
-    text-align: center;
-    padding: 40px;
-    margin: 10px;
-  
-    /* position: relative; */
-    font-family: var(--FF);
-  }
-  
-  .alumni_des {
-    padding: 10px;
-    text-align: center;
-    margin: 10px;
-    font-family: var(--FF);
-  }
-  
-  .photo-gallery {
-    display: flex;
-    flex-direction: column;
-    margin: 2rem 0 2rem 0;
-    gap: 1rem;
-    align-items: center;
-  }
-  
-  .photo-gallery li {
-    background-size: 100%;
-    width: 320px;
-  }
-  
-  .Graduant1 {
-    background-image: url(images/class\ 2020.jpeg);
-  }
-  
-  .Graduant2 {
-    background-image: url(images/class\ 2021.jpg);
-  }
-  
-  .photo-gallery div {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(240 80 50 / 75%);
-    transition: all 0.3s ease;
-    padding: 4.5rem 0;
-    cursor: pointer;
-    gap: 0.3rem;
-    align-items: center;
-  }
-  
-  .photo-gallery h3 {
-    font-size: 2rem;
-    color: #fff;
-  }
-  
-  .photo-gallery p {
-    font-size: 1rem;
-    color: #fff;
-  }
-  
-  .partners {
-    background-color: var(--COLOR1);
-  }
-  
-  .partner {
-    text-align: center;
-    padding: 40px;
-    margin: 10px;
-    color: white;
-  }
-  
-  .partner_home {
-    text-align: center;
-    padding: 40px;
-    margin: 10px;
-    color: white;
-  }
-  
-  .durham_college {
-    width: 220px;
-    height: 100px;
-    padding: 5px;
-  }
-  
-  .blue_crest {
-    width: 150px;
-  }
-  
-  .power_technology {
-    width: 150px;
-    height: 100px;
-  }
-  
-  .trilogy_innovation {
-    width: 150px;
-  }
-  
-  .group1,
-  .group2 {
-    display: flex;
-  }
-  
-  .group2 {
-    justify-content: space-between;
-  }
-  
-  .footer_wrapper {
-    padding: 40px;
-  }
-  
-  .footer_info {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  .copyright {
-    font-weight: bold;
-  }
-  
-  .facebook {
-    width: 20px;
-    height: 20px;
-  }
-  
-  .page,
-  .page_out {
-    color: white;
-  }
-  
-  .nav-logo {
-    width: 150px;
-    height: auto;
-    margin-left: 30px;
-  }
-  
-  .header_wrapper {
-    display: none;
-  }
-  
-  .see {
-    display: none;
-  }
-  
-  .navigation {
-    display: none;
-    position: fixed;
-    z-index: 100;
-    padding-top: 50px;
+
+  .lecturer_icon {
+    width: 70px;
+    height: 70px;
+    margin-top: -42px;
+    position: absolute;
     left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: #ec5242;
-    mix-blend-mode: multiply;
-    backdrop-filter: blur(15px);
   }
-  
-  .btn-wrapper {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-  }
-  
-  .close_btn {
-    border: none;
-    cursor: pointer;
-    width: 45px;
-    outline: none;
-    background: none;
-  }
-  
-  .desktop_nav {
-    display: none;
-  }
-  
-  .nav_wrapper_desk {
-    margin-left: 200px;
-  }
-  
-  .nav_items {
-    font-size: 3em;
-    align-items: center;
-    margin-left: 50px;
-    padding: 20px;
-  }
-  
-  a.email {
-    display: block;
-    font-size: 0.8em;
-    font-weight: 700;
-    text-underline-position: under;
-    line-height: 1.5rem;
-    color: #272a31;
-  }
-  
-  #error {
-    color: red;
-    width: 300px;
-    text-align: center;
-    margin: 0 auto;
-  }
-  
-  .course_lecturers {
-    margin-left: 10px;
-    margin-top: 14px;
-  }
-  
+
   .checkers {
     width: 40px;
     position: relative;
+    top: -50px;
+    opacity: 1;
   }
-  
-  .lecturer_content {
-    margin-left: 100px;
-  }
-  
-  .hidden_features {
-    display: none;
-  }
-  
+
   #lecturer-list {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1.5rem;
-    gap: 2rem;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
   }
-  
+
   #lecturer-list li {
-    display: flex;
-    gap: 1.5rem;
+    width: 47%;
   }
-  
+
   #lecturer-list li:nth-child(n+3) {
-    display: none;
+    display: flex;
   }
-  
-  .lecturer-details h3 {
-    font-size: 1rem;
-  }
-  
+
   .lecturer-image {
-    background-image: url('images/image-bg.png');
-    background-size: contain;
-    background-position: top left;
-    background-repeat: no-repeat;
-    max-width: 100px;
-    flex: 1;
+    background-image: url('images/image-bg-desk.png');
   }
-  
-  .lecturer-image img {
-    position: relative;
-    width: 70px;
-    height: 70px;
-    top: 0.73rem;
-    left: 0.8rem;
-  }
-  
-  .lecturer-details {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    flex: 2.5;
-  }
-  
-  .lecturer-title {
-    font-size: 0.82rem;
-    font-weight: 600;
-    line-height: 1.2rem;
-    color: #ec5242;
-  }
-  
-  hr.grey-line {
-    background-color: #d3d3d3;
-    border: #d3d3d3;
-    height: 0.1rem;
-    width: 5%;
-  }
-  
-  .lecturer-info {
-    font-size: 0.8rem;
-    line-height: 1.2rem;
-    margin-bottom: 10px;
-  }
-  
-  #hr-hero {
-    display: none;
-  }
-  
-  #arrow {
-    display: none;
-  }
-  
-  .about-partner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .feat-heading {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  /* ----MEDIA QUERIES SECTION---- */
-  
-  /* || DESKTOP VERSION */
-  @media (min-width: 768px) {
-    .header_wrapper {
-      display: block !important;
-      background-color: var(--COLOR1);
-    }
-  
-    .header_items {
-      display: flex;
-      padding: 5px 5px;
-      gap: 6%;
-      align-items: center;
-      flex-direction: row;
-      margin-left: 900px;
-    }
-  
-    .desktop_nav {
-      display: inline-flex;
-      background-color: white;
-      width: 100%;
-    }
-  
-    .desktop_nav a {
-      text-decoration: none;
-    }
-  
-    .nav_wrapper li {
-      display: inline-block;
-    }
-  
-    .nav_items_desk {
-      padding: 15px 15px;
-      margin: 10px;
-    }
-  
-    .link_desk {
-      color: var(--COLOR1);
-    }
-  
-    .link_deskA,
-    .link_deskB {
-      color: var(--COLOR2);
-    }
-  
-    .link_deskB {
-      border: 4px solid #ec5242;
-    }
-  
-    .hero {
-      background-image: url('images/home-bg-desk.png');
-      background-repeat: no-repeat;
-      background-size: 100%;
-      padding: 6rem 11%;
-    }
-  
-    .hero-about {
-      background-image: url('images/about-bg-desk.png');
-      background-size: contain;
-      background-position-y: 7rem;
-      padding: 4rem;
-    }
-  
-    .hero_box {
-      margin-top: 34px;
-    }
-  
-    .hero_heading {
-      font-size: 3em;
-    }
-  
-    .hero_headingA {
-      font-size: 2.5em;
-      text-align: center;
-    }
-  
-    .hero_title {
-      font-size: 3em;
-    }
-  
-    .hero_titleA {
-      font-size: 2.5em;
-    }
-  
-    .hero_description {
-      padding-left: 20px;
-      width: 70%;
-      background-color: rgb(242, 242, 242);
-    }
-  
-    .hero_descriptionA {
-      background-color: white;
-      border: 1px solid #d3d3d3;
-    }
-  
-    .des2 {
-      font-size: 2em;
-    }
-  
-    .des3 {
-      font-size: 2em;
-    }
-  
-    .des1A {
-      font-size: 0.85rem;
-      line-height: 1.4rem;
-      color: #5a5a5a;
-      width: 650px;
-    }
-  
-    .course_catalogue {
-      display: inline-flex;
-      margin-left: 8%;
-    }
-  
-    .course_catalogue ul:hover {
-      border: 2px solid #fff;
-      transition: all 400ms linear 0.1ms;
-    }
-  
-    .python,
-    .Java_Programming,
-    .Redux_React,
-    .Andriod_N_Developer,
-    .Cyber_security {
-      width: 220px;
-      height: 220px;
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-      margin-left: -17px;
-      align-items: center;
-    }
-  
-    .Btn {
-      display: none;
-    }
-  
-    .see_program {
-      text-align: center;
-      color: white;
-      padding: 45px;
-      display: block;
-      text-underline-position: under;
-    }
-  
-    ul.python,
-    ul.Java_Programming,
-    ul.Redux_React,
-    ul.Andriod_N_Developer,
-    ul.Cyber_security {
-      text-align: center;
-    }
-  
-    .python_des,
-    .Java_des,
-    .RR_des,
-    .AND_des,
-    .CS_des {
-      font-size: small;
-      margin-left: 10px;
-    }
-  
-    .dropdown {
-      display: none;
-    }
-  
-    .hidden_features {
-      display: contents;
-    }
-  
-    .desktop_partners ul {
-      display: flex;
-      justify-content: center;
-    }
-  
-    .course_lecturers {
-      display: inline-grid;
-      grid-template-columns: auto auto;
-      margin-left: 50px;
-      margin-right: 50px;
-      padding: 15px;
-    }
-  
-    .menu_btn {
-      display: none;
-    }
-  
-    .containerA {
-      width: auto;
-    }
-  
-    .about {
-      width: 100%;
-    }
-  
-    .contact_orbit {
-      margin-top: -150px;
-    }
-  
-    input {
-      width: 447px;
-      height: 48px;
-    }
-  
-    textarea {
-      width: 447px;
-      height: 170px;
-    }
-  
-    .contact-btn {
-      margin-left: 150px;
-    }
-  
-    #partner-hr {
-      display: none;
-    }
-  
-    .logo_im {
-      width: 400px;
-      height: 200px;
-    }
-  
-    #arrow {
-      display: block;
-      width: 5px;
-    }
-  
-    .photo-gallery {
-      display: flex;
-      flex-direction: row;
-      margin: 2.5rem;
-      justify-content: center;
-    }
-  
-    .photo-gallery li {
-      width: 380px;
-    }
-  
-    .mobile_partners {
-      display: none;
-    }
-  
-    .partner {
-      display: none;
-      margin-top: 20px;
-    }
-  
-    .footer_home {
-      background-color: white;
-    }
-  
-    .footer {
-      background-color: var(--COLOR1);
-    }
-  
-    .copyright,
-    .reserved {
-      color: white;
-    }
-  
-    .logo_image {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-  
-    #hr-hero {
-      display: block;
-      margin-top: 10px;
-      margin-left: 45%;
-    }
-  
-    .hr-heading {
-      margin-top: -12px;
-    }
-  
-    .see {
-      display: contents;
-    }
-  
-    .courses {
-      position: relative;
-      height: auto;
-    }
-  
-    .btn_wrapper {
-      display: none;
-    }
-  
-    .reach_out {
-      color: #5a5a5a;
-      line-height: 1.4rem;
-      font-size: 0.85rem;
-    }
-  
-    .fa-brands {
-      color: #d3d3d3;
-    }
-  
-    .contact span {
-      display: flex;
-      align-items: baseline;
-      gap: 0.2rem;
-      justify-content: center;
-    }
-  
-    .lecturer_icon {
-      width: 70px;
-      height: 70px;
-      margin-top: -42px;
-      position: absolute;
-      left: 0;
-    }
-  
-    .checkers {
-      width: 40px;
-      position: relative;
-      top: -50px;
-      opacity: 1;
-    }
-  
-    #lecturer-list {
-      flex-direction: row;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-  
-    #lecturer-list li {
-      width: 47%;
-    }
-  
-    #lecturer-list li:nth-child(n+3) {
-      display: flex;
-    }
-  
-    .lecturer-image {
-      background-image: url('images/image-bg-desk.png');
-    }
-  }
-  
+}
