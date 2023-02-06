@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <title>Capstone Project-Sozo Graphics Institute</title>
+</head>
+<body id="body">
+    <section class="header">   
+        <div class="nav-container">
+            <div class="menu_btn" onclick="openMobileMenu()">
+                <img src="images/menu-rounded.png" class="hamburger_menu"  alt="menu button">
+            </div>
+                <div class="header_wrapper">
+                    <ul class="header_items">
+                        <li><img src="images/-facebook-logo.png" class="facebook" alt="facebook Logo"></li>
+                        <li><img src="images/twitter.png" class="twitter" alt="twitter bird"></li>
+                        <li class="page">My Page</li>
+                        <li class="page_out">Log out</li>
+                    </ul>
+                </div>
+                <nav class="navigation" id="nav">
+                    <div class="btn_wrapper">
+                        <button class="close_btn" onclick="closeMobileMenu()">
+                            <img src="images/closeBtn.png" alt="menu_btn">
+                        </button>
+                    </div>
+                    <div class="nav-logo"onclick="closeMobileMenu()" >
+                        <a href="./index.html"><img src="images/logo-removebg-preview.png" class="nav-logo" alt="logo of Orbit Web Innovations"></a>
+                    </div>
+                    <ul class="nav_wrapper">
+                        <li class="nav_items" onclick="closeMobileMenu()" >
+                            <a href="./about.html" class="linkA">About</a> 
+                        </li>
+                        <li class="nav_items" onclick="closeMobileMenu()">
+                            <a href="#courses" class="link">Program</a>
+                        </li>
+                        <li class="nav_items" onclick="closeMobileMenu()" >
+                            <a href="#courses" class="link">Courses</a>
+                        </li>
+                        <li class="nav_items" onclick="closeMobileMenu()">
+                            <a href="#lecturers" class="link">Lecturers</a>
+                        </li>
+                        <li class="nav_items" onclick="closeMobileMenu()" >
+                            <a href="#partners" class="link">Partners</a>
+                        </li>
+                        <li class="nav_items" onclick="closeMobileMenu()">
+                            <a href="#" class="linkB">OW Inno.</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="nav_wrapper">
+                    <nav class="desktop_nav">
+                        <div class="nav-logo">
+                            <a href="./index.html"><img src="images/logo-removebg-preview.png" class="nav-logo" alt="logo of Orbit Web Innovations"></a>
+                        </div>
+                        <ul class="nav_wrapper_desk">
+                            <li class="nav_items_desk">
+                                <a href="./about.html" class="link_deskA">About</a> 
+                            </li>
+                            <li class="nav_items_desk">
+                                <a href="#courses" class="link_desk">Program</a>
+                            </li>
+                            <li class="nav_items_desk">
+                                <a href="#courses" class="link_desk">Courses</a>
+                            </li>
+                            <li class="nav_items_desk">
+                                <a href="#lecturers" class="link_desk">Lecturers</a>
+                            </li>
+                            <li class="nav_items_desk">
+                                <a href="#partners" class="link_desk">Partners</a>
+                            </li>
+                            <li class="nav_items_desk">
+                                <a href="#" class="link_deskB">OW Inno.</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+        </div>
+    </header>
+    <section class="hero">
+                <div class="hero_box">
+                    <h1 class="hero_heading">"Hello! Sharing World"</h1>
+                    <h2 class="hero_title">ORBIT WEB INNOVATIONS</h2>
+                </div>
+                <div class="hero_description">
+                    <p class="des1">At Orbit institute we believe in nurturing great minds to become web programming professionals through our tailor-made courses. </p>
+                </div>
+                    <p class="des2">
+                        COURSE-TIME: (MON) ~ (FRI)
+                    </p>
+                    <p class="des3">
+                        @ Orbit Web Innovations. Oslo, Norway.
+                    </p>
+    </section>
+
+    <main id="courses" class="courses">
+        <div class="main">
+            <h2 class="programs">Main Courses</h2>
+            <hr class="hr-heading">
+        </div>
+        <div class="course_catalogue">
+            <ul class="python">
+                <li><img src="images/lecture-icon.png" class="icon" alt="lecture icon"></li>
+                <li class="python_course">Python</li>
+                <li class="python_des">A course in Python would teach you the basics of Python and how you can use it to do your basic coding.</li>
+            </ul>
+            <ul class="Java_Programming">
+                <li><img src="images/lecture-icon.png" class="icon" alt="lecture icon"></li>
+                <li class="Java_course">Java Prog</li>
+                <li class="Java_des">A basic program that helps students get a glimpse of the complex world of programming.</li>
+            </ul>
+            <ul class="Redux_React">
+                <li><img src="images/lecture-icon.png" class="icon" alt="lecture icon"></li>
+                <li class="RR_course">Redux and React</li>
+                <li class="RR_des">Redux and React are two major areas that any app developer should put emphasis on.</li>
+            </ul>
+            <ul class="Andriod_N_Developer">
+                <li><img src="images/lecture-icon.png" class="icon" alt="lecture icon"></li>
+                <li class="AND_course">Andriod N Developer</li>
+                <li class="AND_des">Are you someone who loves to see the new apps popping up in Google Play feeds?</li>
+            </ul>
+            <ul class="Cyber_security">
+                <li><img src="images/lecture-icon.png" class="icon" alt="lecture icon"></li>
+                <li class="CS_course">Cyber Security</li>
+                <li class="CS_des">You can become an expert in Cybersecurity in different operating systems like macOS, Linus, iOS.</li>
+            </ul>
+            <div class="Btn">
+                <button class="course_btn">Join Sozo Graphics</button>
+            </div>
+        </div>
+        <div class="see">
+            <a class="see_program" href="#">VIEW OUR LECTURERS</a>
+        </div>
+    </main>
+    <section id="lecturers"  class="featured">
+        <div class="feat-heading">
+            <h2 class="featured_lecturers">Featured Lecturers</h2>
+            <hr class="hr-heading">
+        </div>
+        <ul class="course_lecturers" id="lecturer-list"></ul>
+        <div class="dropdown">
+            <button class="more_lecturers">MORE<img src="images/arrow-down-icon.png" class="down"></button>
+
+        </div> 
+    </section>
+    <div class="hidden_features">
+        <section id="partners" class="partners">
+            <div class="feat-heading">
+                <h2 class="partner_home">Partners</h2>
+                <hr class="hr-heading">
+             </div>
+            <div class="desktop_partners">
+                <ul>
+                    <li><img src="images/dcs-removebg.png" class="durham_college" alt="logo of Durham College"><img src="images/trilogy-removebg.png" class="trilogy_innovation" alt="logo of trilogy innovation"><img src="images/power-tech-removebg.png" class="power_technology" alt="logo of Power Technology School"><img src="images/bcc-removebg.png" class="blue_crest" alt="logo of Blue Crest"></li>
+                </ul>
+            </div>
+        </section>
+        <section class="footer_home">
+            <div class="footer_wrapper">
+                <ul class="footer_info">
+                    <li class="copyright_home">&copyOrbit<br>Web Innovations</li>
+                    <li class="reserved_home"> Oslo, Norway<br>All Rights Reserved</li>
+                </ul>
+        </div>
+        </section>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
