@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/58789452ae.js"
+      crossorigin="anonymous">
+    </script>
     <link rel="stylesheet" href="styles.css">
     <title>Capstone Project-Sozo Graphics Institute</title>
 </head>
@@ -20,14 +24,16 @@
                     <div class="menu_btn" onclick="openMobileMenu()">
                         <img src="images/menu-rounded.png" class="hamburger_menu"  alt="menu button">
                     </div>
-                        <div class="header_wrapper">
-                            <ul class="header_items">
-                                <li><img src="images/-facebook-logo.png" class="facebook" alt="facebook Logo"></li>
-                                <li><img src="images/twitter.png" class="twitter" alt="twitter bird"></li>
-                                <li class="page">My Page</li>
-                                <li class="page_out">Log out</li>
+                        <div class="top-nav">
+                            <ul>
+                            <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#">English</a></li>
+                            <li><a href="#">My Page</a></li>
+                            <li><a href="#">LogOut</a></li>
                             </ul>
                         </div>
+                        
                         <nav class="navigation" id="nav">
                             <div class="btn_wrapper">
                                 <button class="close_btn" onclick="closeMobileMenu()">
@@ -108,7 +114,7 @@
         <section class="logo">
             <div class="logo_orbit">
                 <h2 class="orbit">Orbit Web Innovations 2018 Logo</h2>
-                <hr>
+                <hr id="hr-orbit">
                 <p class="orbit_des">The Logo of Orbit Web Innovations was designed after a board consultation of the school management on June 8, 2018</p>
             </div>
             <div class="logo_image">
@@ -118,7 +124,7 @@
           
             <div class="alumni">
                 <h2 class="past_alumni">Past Alumni of Orbit Web Innovations</h2>
-                <hr>
+                <hr id="hr-alumni">
             </div>
             <p class="alumni_des">Pictures of recent alumni who graduated in the year 2020 and 2021 respectively</p>
             <ul class="photo-gallery">
@@ -156,7 +162,7 @@
             <div class="footer_wrapper">
                 <ul class="footer_info">
                     <li class="copyright">&copyOrbit<br>Web Innovations</li>
-                    <li class="reserved"> Oslo, Norway<br>All Rights Reserved</li>
+                    <li class="reserved">2020 Orbit Innovations Web. All Rights Reserved</li>
                 </ul>
            </div>
         </section>
