@@ -57,7 +57,7 @@
 }
 
 .twitter {
-color: #d3d3d3;
+  color: #d3d3d3;
 }
 
 .hero_title {
@@ -339,8 +339,8 @@ hr {
 #hr-partner,
 #hr-orbit,
 #hr-alumni,
-#partner-hr{
-margin-top: -32px;
+#partner-hr {
+  margin-top: -32px;
 }
 
 #logo-hr {
@@ -727,6 +727,7 @@ hr.grey-line {
 .top-nav {
   display: none;
 }
+
 /* ----MEDIA QUERIES SECTION---- */
 
 /* || DESKTOP VERSION */
@@ -745,7 +746,7 @@ hr.grey-line {
     row-gap: 5%;
   }
 
-   .desktop_nav a {
+  .desktop_nav a {
     text-decoration: none;
   }
 
@@ -754,7 +755,7 @@ hr.grey-line {
   }
 
   .nav_wrapper_desk {
-  margin-left: 365px;
+    margin-left: 365px;
   }
 
   .nav_items_desk {
@@ -834,6 +835,15 @@ hr.grey-line {
     line-height: 1.4rem;
     color: #5a5a5a;
     width: 650px;
+  }
+
+  .top-nav ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #3e3e3e;
+    padding: 0 11%;
+    gap: 1.5rem;
   }
 
   .desktop_partners ul {
@@ -1074,22 +1084,13 @@ hr.grey-line {
     gap: 2rem;
   }
 
-  li.copyright, 
+  li.copyright,
   li.reserved {
     color: white;
   }
 
   .top-nav {
     display: block;
-  }
-
-  .top-nav ul {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    background-color: #3e3e3e;
-    padding: 0 11%;
-    gap: 1.5rem;
   }
 
   .top-nav a {
@@ -1099,6 +1100,7 @@ hr.grey-line {
     color: #d3d3d3;
   }
 }
+
 @media (max-width: 1024px) {
   .nav_wrapper_desk {
     margin-left: 155px;
