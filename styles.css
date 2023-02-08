@@ -83,8 +83,6 @@
   border: 1px solid white;
   padding: 15px;
   background-color: rgba(202, 199, 199, 0.1);
-
-  /* font-family: var(--FF); */
 }
 
 .hero_descriptionA {
@@ -103,12 +101,15 @@
 .des2 {
   margin-left: 20px;
   margin-bottom: 9px;
-  color: var(--COLOR1);
-  font-family: var(--FF);
+  color: #5b5b5b;
+  font-weight: 900;
+  line-height: 2.2rem;
 }
 
 .des3 {
   margin-left: 20px;
+  font-weight: 400;
+  color: #5b5b5b;
 }
 
 .hamburger_menu {
@@ -151,7 +152,7 @@ ul {
   color: white;
 }
 
-.course_catalogue ul {
+.course_catalogue article {
   display: flex;
   align-items: center;
   transition: all 400ms linear 0.1ms;
@@ -192,7 +193,7 @@ ul {
   font-size: 0.875rem;
   line-height: 1.2rem;
   color: #d3d3d3;
-  flex: 4;
+  flex: 3;
 }
 
 .course_btn {
@@ -363,9 +364,6 @@ hr {
   text-align: center;
   padding: 40px;
   margin: 10px;
-
-  /* position: relative; */
-  font-family: var(--FF);
 }
 
 .logo_orbit {
@@ -406,25 +404,18 @@ hr {
   flex-direction: column;
   align-items: center;
   text-align: center;
-
-  /* padding: 2.5rem;
-    gap: 1rem; */
 }
 
 .past_alumni {
   text-align: center;
   padding: 40px;
   margin: 10px;
-
-  /* position: relative; */
-  font-family: var(--FF);
 }
 
 .alumni_des {
   padding: 10px;
   text-align: center;
   margin: 10px;
-  font-family: var(--FF);
 }
 
 .photo-gallery {
@@ -566,7 +557,8 @@ li.reserved {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: #ec5242;
+  background-color: rgb(96, 112, 255);
+  background-color: rgb(96, 112, 255, 0.95);
   mix-blend-mode: multiply;
   backdrop-filter: blur(15px);
 }
@@ -628,6 +620,10 @@ a.email {
 
 .hidden_features {
   display: none;
+}
+
+.dynamic {
+  display: flex;
 }
 
 #lecturer-list {
@@ -709,6 +705,13 @@ hr.grey-line {
   text-align: center;
 }
 
+a.link,
+a.linkA,
+a.linkB {
+ color: white;
+ text-decoration: none;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -744,6 +747,7 @@ hr.grey-line {
   .desktop_nav {
     display: inline-flex;
     row-gap: 5%;
+    width: 100%;
   }
 
   .desktop_nav a {
@@ -756,6 +760,7 @@ hr.grey-line {
 
   .nav_wrapper_desk {
     margin-left: 365px;
+    justify-content: right;
   }
 
   .nav_items_desk {
@@ -773,7 +778,11 @@ hr.grey-line {
   }
 
   .link_deskB {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #ec5242;
     border: 4px solid #ec5242;
+    padding: 0.5rem;
   }
 
   .hero {
@@ -795,7 +804,7 @@ hr.grey-line {
   }
 
   .hero_heading {
-    font-size: 3em;
+    font-size: 2em;
   }
 
   .hero_headingA {
@@ -804,8 +813,9 @@ hr.grey-line {
   }
 
   .hero_title {
-    font-size: 3em;
-  }
+    font-size: 5em;
+    font-weight: 900;
+  } 
 
   .hero_titleA {
     font-size: 2.5em;
@@ -823,11 +833,11 @@ hr.grey-line {
   }
 
   .des2 {
-    font-size: 2em;
+    font-size: 1.9rem;
   }
 
   .des3 {
-    font-size: 2em;
+    font-size: 1.3rem;
   }
 
   .des1A {
@@ -856,7 +866,7 @@ hr.grey-line {
     margin-left: 8%;
   }
 
-  .course_catalogue ul:hover {
+  .course_catalogue article:hover {
     border: 2px solid #fff;
     transition: all 400ms linear 0.1ms;
   }
@@ -885,11 +895,11 @@ hr.grey-line {
     text-underline-position: under;
   }
 
-  ul.python,
-  ul.Java_Programming,
-  ul.Redux_React,
-  ul.Andriod_N_Developer,
-  ul.Cyber_security {
+  article.python,
+  article.Java_Programming,
+  article.Redux_React,
+  article.Andriod_N_Developer,
+  article.Cyber_security {
     text-align: center;
   }
 
@@ -1103,6 +1113,6 @@ hr.grey-line {
 
 @media (max-width: 1024px) {
   .nav_wrapper_desk {
-    margin-left: 155px;
+    margin: auto;
   }
 }

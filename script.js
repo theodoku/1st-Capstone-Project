@@ -54,7 +54,8 @@ const lecturers = document.querySelector('#lecturer-list');
 
 lecturersInfo.forEach((lecturer) => {
   const li = document.createElement('li');
-  li.innerHTML = ` <div class="lecturer-image">
+  li.innerHTML = `<article class="dynamic">
+    <div class="lecturer-image">
       <img src="${lecturer.image}" alt="${lecturer.name}'s photo">
     </div>
     <div class="lecturer-details">
@@ -63,7 +64,7 @@ lecturersInfo.forEach((lecturer) => {
       <hr class="grey-line">
       <p class="lecturer-info">${lecturer.info}</p>
     </div>
-  `;
+  </article>`;
   lecturers.appendChild(li);
 });
 
