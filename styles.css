@@ -708,8 +708,8 @@ hr.grey-line {
 a.link,
 a.linkA,
 a.linkB {
- color: white;
- text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .main {
@@ -815,7 +815,7 @@ a.linkB {
   .hero_title {
     font-size: 5em;
     font-weight: 900;
-  } 
+  }
 
   .hero_titleA {
     font-size: 2.5em;
